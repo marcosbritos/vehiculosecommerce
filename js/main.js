@@ -52,7 +52,7 @@ if(resultado == true) {
 }
 resultado = confirm(" ¿Necesitas otro precio?")
 if (resultado == true) {
-    necesitoPreciosPrecios()
+    necesitoPrecios()
 } else {
 alert("Gracias por tu visita 😉")
 }
