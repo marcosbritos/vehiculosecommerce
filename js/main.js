@@ -54,6 +54,6 @@ resultado = confirm(" ¿Necesitas otro precio?")
 if (resultado == true) {
     necesitoPreciosPrecios()
 } else {
-alert("Gracias por tu visita 😉.")
+alert("Gracias por tu visita 😉")
 }
 }
