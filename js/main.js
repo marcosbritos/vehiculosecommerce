@@ -38,7 +38,7 @@ function necesitoPrecios () {
         default:
     }
     alert ("Precio del producto$" + valorTotal)
-    let resultado = confirm(" ¿Necesitas pagar en cuotas?")
+    let resultado = confirm("¿Necesitas pagar en cuotas?")
 if(resultado == true) {
     cuotas = prompt("Ingrese la cantidad de cuotas (2, 3 o 6):").trim()
     if (cuotas !== "2" && cuotas !== "3" && cuotas !== "6") {
